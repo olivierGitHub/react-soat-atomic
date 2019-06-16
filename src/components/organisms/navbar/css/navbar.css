@@ -1,0 +1,12 @@
+.soat-logo {
+  max-width: 9rem;
+  max-height: 7rem;
+}
+
+.activeRoute {
+  color: red;
+}
+
+.navbar-color {
+  background-color: lightblue;
+}
