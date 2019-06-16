@@ -10,12 +10,13 @@ function InfoTypeB(props) {
           <div className="row">
             <div className="col-sm-6 type-b-info">
               <InfoText title={props.title}
-                        description={props.description}>
+                        description={props.description}
+                        additionalDescription={props.additionalDescription}
+                        buttonText={props.buttonText}>
               </InfoText>
             </div>
             <div className="col-sm-6">
-              <PictureGif src={props.src}
-                        alt={props.alt} />
+              <PictureGif src={props.src} />
             </div>
           </div>
         </div>

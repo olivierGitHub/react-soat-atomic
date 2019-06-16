@@ -16,8 +16,7 @@ function InfoTypeA(props) {
             </div>
             <div className="col-sm-4">
               <InfoPicture description={props.description2}
-                        src={props.src}
-                        alt={props.alt} />
+                        src={props.src} />
             </div>
             <div className="col-sm-4 type-a-info">
               <InfoText title={props.title3}

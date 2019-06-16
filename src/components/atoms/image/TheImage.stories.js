@@ -4,5 +4,5 @@ import TheImage from './TheImage';
 
 
 storiesOf('Atoms|TheImage', module)
-    .add('image', () => <TheImage src="soat-logo.png" alt="the image"  />);
+    .add('image', () => <TheImage src="soat-logo.png" />);
 
