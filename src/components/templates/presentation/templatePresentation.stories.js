@@ -4,13 +4,13 @@ import TemplatePresentation from './templatePresentation';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 
-storiesOf('Templates|TemplatePartage', module)
+storiesOf('Templates|TemplatePresentation', module)
     .addDecorator(cmpnt => (
       <BrowserRouter>
         <Route path="/" component={() => cmpnt()} />
       </BrowserRouter>
     ))
-    .add('template partage', () => <TemplatePresentation title="Lorem ipsum"
+    .add('template presentation', () => <TemplatePresentation title="Lorem ipsum"
                                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore"
                                     src="https://www.soat.fr/sites/default/files/paragraph/header/soat-formons.gif"
                                     buttonText="lorem ipsum" />);
