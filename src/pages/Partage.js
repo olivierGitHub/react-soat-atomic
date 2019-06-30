@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
-import Navbar from '../components/organisms/navbar/Navbar';
-import Footer from '../components/organisms/footer/Footer';
-import InfoTypeC from '../components/organisms/info-type-c/InfoTypeC';
+import TemplatePartage from '../components/templates/partage/templatePartage';
 
 class Partage extends Component {
 
   render() {
     return (
-        <React.Fragment>
-          <Navbar />
-          <InfoTypeC mainTitle="La culture IT partagée"
+        <TemplatePartage mainTitle="La culture IT partagée"
                     title1="Le blog"
                     description1="Des équipes se constituent spontanément en fonction de leurs centres d’intérêt, pour décrypter les tendances technologiques et les bonnes pratiques sur le blog SOAT. Architecture, Web Front, Agilité, Mobilité, Cloud, Big Data, DevOps, Craftsmanship... choisissez votre team !"
                     src1="https://www.soat.fr/sites/default/files/styles/image-element/public/paragraph/element/soat-icon-06-blog.png?itok=6SPzGdGv"
@@ -22,8 +18,6 @@ class Partage extends Component {
                     description3="Rédigés par les maîtres de leur discipline, les livres blancs mènent une course de fond thématique quand les avis d’expert rebondissent sur l’actualité tech’ avec des mises en perspective, et les refcards offrent un aperçu complet sur une technologie spécifique. Et parce que les Soatiens sont des joueurs (sérieux) par nature, ils s’amusent aussi à concevoir des serious game."
                     src3="https://www.soat.fr/sites/default/files/styles/image-element/public/paragraph/element/soat-icon-08-publications.png?itok=SvKFCSbz"
                     buttonText3="Tous les publications" />
-          <Footer />
-        </React.Fragment>
       )
   }
 }
